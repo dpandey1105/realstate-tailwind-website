@@ -7,7 +7,7 @@
        "start": "vite",
       "server": "webpack-dashboard -- webpack-dev-server --inline --port 8080",
       "webdriver-update": "webdriver-manager update",
-      "build": "npx tailwindcss -i ./Assets/CSS/style.css -o ./Assets/CSS/output.css --minify"
+      "build": "npx tailwindcss -i ./Assets/CSS/style.css -o ./Assets/CSS/output.css --minify --watch"
   },
   "keywords": [],
   "author": "",
